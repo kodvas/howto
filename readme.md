@@ -1,6 +1,6 @@
 # How to for begginers
 
-## git
+### git
 
 git stash - затерти всі зміни які робив
 
