@@ -1,4 +1,4 @@
-# How to for begginers
+# How to for newbe
 
 ### git
 
