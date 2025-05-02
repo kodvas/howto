@@ -20,7 +20,9 @@ sed -i 's/startup_timeout: float = *15/startup_timeout: float = 120/' ~/rl-swarm
 
 ```
 rm -rf .venv
+
 python3 -m venv .venv
+
 source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
