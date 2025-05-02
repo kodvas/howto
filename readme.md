@@ -1,6 +1,6 @@
 # How to for newbe
 
-### git
+## git
 
 git stash - затерти всі зміни які робив
 
@@ -13,11 +13,11 @@ git status - подивитися які файли в тебе модифіко
 git branch --show-current - показати в якій гілці ти зараз
 
 
-## fix rl_swarm error
+### fix rl_swarm error
 
 sed -i 's/startup_timeout: float = *15/startup_timeout: float = 120/' ~/rl-swarm/.venv/lib/python3.12/site-packages/hivemind/p2p/p2p_daemon.py ./run_rl_swarm.sh
 
-## update rl_swarm
+### update rl_swarm
 
 ```
 rm -rf .venv
